@@ -1,0 +1,49 @@
+.login {
+
+   display : grid;
+   place-items: center; 
+   height : 100vh;
+   
+}
+
+.container {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container > img {
+    width: 50%;
+    box-shadow:  0 4px 60px rgba(0,0,0,0.5) ;
+
+}
+
+.container > a {
+    padding: 20px;
+    background-color: #1db954;
+    border-radius: 99px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    margin-right: 85px;
+    transition: 100ms ease-in-out;
+}
+
+.container > a:hover {
+
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0.9) !important;
+    
+}
+
+.login > marquee {
+    font-size: 20px;
+    height: 50px;
+    width: 50vw;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    font-weight: 500;
+  }
